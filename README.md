@@ -26,6 +26,7 @@ The translation service example demonstrates how to serve a Hugging Face transfo
 1. Start the Ray Serve application in one terminal:
 
 ```bash
+cd <PATH>/RayServeExamples/RayServeDemo/TranslationApp
 serve run serve_quickstart:translator_app
 ```
 
@@ -50,7 +51,8 @@ The Composing App example demonstrates how to create complex applications by com
 1. Start the Ray Serve application:
 
 ```bash
-serve run ComposiningApp.composed_app:app
+cd <PATH>/RayServeExamples/RayServeDemo/CompositionsApp
+serve run serve_quickstart_composed:app
 ```
 
 2. Test the composed application using the provided client:
