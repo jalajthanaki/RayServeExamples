@@ -94,3 +94,4 @@ coverage.xml
 # Local development
 .env.local
 .mypy_cache
+.DS_Store
