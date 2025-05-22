@@ -36,7 +36,7 @@ serve run serve_quickstart:translator_app
 python TranslationApp/model_client.py
 ```
 
-## Composing App Example
+## Compositions App Example
 
 The Composing App example demonstrates how to create complex applications by combining multiple Ray Serve deployments. This example showcases:
 
