@@ -58,8 +58,16 @@ serve run serve_quickstart_composed:app
 2. Test the composed application using the provided client:
 
 ```bash
-python ComposiningApp/client.py
+python ComposiningApp/composed_client.py
 ```
+
+## Troubleshooting
+- Incase ray[serve] is not install execute `pip install ray[serve]`
+- Incase ray is not installed execute `pip install ray`
+- Always run the client call from the different terminal 
+- If you are running the ray on the local system in order to execute the command on ray cluster use `ray start --head` and it will start the local ray cluster
+- In order to stop the ray cluster use `ray stop`
+
 
 ## Project Structure
 
